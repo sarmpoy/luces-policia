@@ -1,5 +1,5 @@
 {
-    "name": "Luces policia",
+    "name": "Luces y sonido policia",
     "description": "",
     "dependencies": {
         "core": "*",
