@@ -15,3 +15,11 @@ basic.forever(function () {
 basic.forever(function () {
     music.playMelody("C5 G C5 G C5 G C5 G ", 120)
 })
+basic.forever(function () {
+    cuteBot.colorLight(cuteBot.RGBLights.RGB_L, 0xff0000)
+    basic.pause(200)
+    cuteBot.closeheadlights()
+    cuteBot.colorLight(cuteBot.RGBLights.RGB_R, 0x0000ff)
+    basic.pause(200)
+    cuteBot.closeheadlights()
+})
